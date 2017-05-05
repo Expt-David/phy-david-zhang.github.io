@@ -10,14 +10,12 @@
 		<meta name="generator" content="Jekyll v{{ jekyll.version }}">
 
 		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
 		<link rel="stylesheet" href="/css/main.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 
-	<!--
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
-    -->
     <link rel="icon" type="image/png" href="/images/favicon.png">
 
     {% seo %}
@@ -27,9 +25,10 @@
 
 	<body id="top">
     <header id="header">
-      <a href="{{ site.url }}" class="image avatar"><img class="editable" src="/images/profile.png" alt="{{ site.author.name }}"></a>
-      <h1 class="editable" style="font-size: 21px"><strong><a href="/">Zhang Chang-kai</a></strong></h1>
-      <h3 class="editable" style="color: rgba(255, 255, 255, 0.5); font-size: 18px">Theoretical physicist attempting to reveal final rules of the universe.</h3>
+      <a href="{{ site.url }}" class="image avatar"><img class="editable" src="/images/avatar.jpg" alt="{{ site.author.name }}"></a>
+      <h1 class="editable"><strong>I am <a href="/">Strata Reloaded</a></strong>, a super simple<br>
+      responsive site template freebie<br>
+      adapted by <a href="http://comfusionllc.com">Comfusion LLC</a>.</h1>
     </header>
 
     {{ content }}
@@ -46,16 +45,16 @@
 				{% endfor %}
         {% if site.author.email %}
         <li>
-          <a href="mailto:{{ site.author.email }}" class="icon fa-telegram">
+          <a href="mailto:{{ site.author.email }}" class="icon fa-envelope-o">
             <span class="label">Email</span>
           </a>
         </li>
         {% endif %}
       </ul>
       <ul class="copyright">
-          <li>&copy; 2017 Zhang Chang-kai</li>
+          <li>&copy; Untitled</li>
           <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-          <li>Adapted: Zhang Chang-kai</li>
+          <li>Theme: <a href="http://comfusionllc.com">Comfusion LLC</a></li>
       </ul>
     </footer>
 
