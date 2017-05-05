@@ -27,13 +27,6 @@ gems:
   - "jekyll-paginate"
   - "jekyll-sitemap"
 
-# Jekyll SEO Tag
-webmaster_verifications:
-  google: # 1234
-  bing: # 1234
-  alexa: # 1234
-  yandex: # 1234
-
 # -----------
 # CloudCannon
 
